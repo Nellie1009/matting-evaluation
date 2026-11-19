@@ -1,0 +1,6 @@
+interface:
+  display_name: "抠图能力评测"
+  short_description: "为图片模型结果补评分列，逐图六维打标，并用公式生成模型与任务分析表"
+  default_prompt: "使用 $matting-evaluation 按我的抠图标准评估这份 Excel，补全评分列及数据分析 sheet，并用公式联动汇总和极值底色。"
+policy:
+  allow_implicit_invocation: true
